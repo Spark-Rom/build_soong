@@ -82,6 +82,7 @@ var Configuration = map[string]PathConfig{
 	"date":    Allowed,
 	"depmod":  Allowed,
 	"dd":      Allowed,
+        "ccache":  Allowed,
 	"diff":    Allowed,
 	"dlv":     Allowed,
 	"expr":    Allowed,
