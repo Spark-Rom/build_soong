@@ -139,9 +139,9 @@ func dumpMakeVars(ctx Context, config Config, goals, vars []string, write_soong_
 var BannerVars = []string{
 	"PLATFORM_VERSION_CODENAME",
 	"PLATFORM_VERSION",
-	"LINEAGE_VERSION",
+	"SPARK_VERSION",
 	"PRODUCT_INCLUDE_TAGS",
-	"TARGET_PRODUCT",
+	"TARGET_DEVICE",
 	"TARGET_BUILD_VARIANT",
 	"TARGET_BUILD_TYPE",
 	"TARGET_BUILD_APPS",
@@ -170,8 +170,7 @@ var BannerVars = []string{
 	"SOONG_SDK_SNAPSHOT_VERSION",
         "PRODUCT_IS_ATV",
         "PRODUCT_IS_AUTO",
-	"WITH_SU",
-	"WITH_GMS",
+	"WITH_GAPPS",
 	"GMS_MAKEFILE",
 	"MAINLINE_MODULES_MAKEFILE",
 }
